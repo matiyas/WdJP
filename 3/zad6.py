@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 
-"""Zaimplementuj funkcję vars, która przyjmuje jeden parametr: n i tworzy mienne globalne v1 do
-vn o wartościach 1^2, ..., n^2, odpowiednio."""
+"""Zaimplementuj funkcję vars, która przyjmuje jeden parametr: n i tworzy
+zmienne globalne v1 do vn o wartościach 1^2, ..., n^2, odpowiednio."""
 
 
 def vars(n):
@@ -13,5 +13,6 @@ def vars(n):
 
 if __name__ == '__main__':
     vars(10)
-    for zmienna, wartosc in zip(list(globals().keys()), list(globals().values())):
+    for zmienna, wartosc in zip(list(globals().keys()),
+                                list(globals().values())):
         print('{} = {}'.format(zmienna, wartosc))

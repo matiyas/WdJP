@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*-
 
 
-"""Zaimplementuj na dwa sposoby (rekurencyjnie oraz iteracyjnie) funkcję silnia. Funkcje powinny
-wypisywać (w czytelny w zrozumiały sposób) na ekran tablicę swoich zmiennych lokalnych oraz
-globalnych.
-    W jaki sposób zmieniają się zmienne lokalne i globalne w zależności od sposobu implementacji
-    (rekurencja kontra iteracja)?"""
+"""Zaimplementuj na dwa sposoby (rekurencyjnie oraz iteracyjnie) funkcję
+silnia. Funkcje powinny wypisywać (w czytelny w zrozumiały sposób) na ekran
+tablicę swoich zmiennych lokalnych oraz globalnych. W jaki sposób zmieniają
+się zmienne lokalne i globalne w zależności od sposobu implementacji (
+rekurencja kontra iteracja)? """
 
 
 def silnia_iteracyjnie(n):

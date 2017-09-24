@@ -2,8 +2,9 @@
 # -*- coding: utf-8 -*-
 
 
-"""Zaimplementuj własną klasę liczb zespolonych. Zaimplementuj w niej metodę pozwalającą na
-zwiększanie wartości o liczbę całkowitą, rzeczywistą oraz zespoliną (własnej klasy)."""
+"""Zaimplementuj własną klasę liczb zespolonych. Zaimplementuj w niej metodę
+pozwalającą na zwiększanie wartości o liczbę całkowitą, rzeczywistą oraz
+zespoliną (własnej klasy). """
 
 
 class MojaZespolona:
@@ -13,7 +14,8 @@ class MojaZespolona:
 
     def __add__(self, other):
         if isinstance(other, MojaZespolona):
-            return MojaZespolona(self.real + other.real, self.imag + other.imag)
+            return MojaZespolona(self.real + other.real,
+                                 self.imag + other.imag)
         if isinstance(other, float) or isinstance(other, int):
             return MojaZespolona(self.real + other, self.imag)
 

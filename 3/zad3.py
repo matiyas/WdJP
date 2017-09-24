@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 
 
-"""Zaimplementuj rekurencujnie funkcje FF oraz GG, które zdefiniowano poniżej."""
+"""Zaimplementuj rekurencujnie funkcje FF oraz GG, które zdefiniowano
+poniżej. """
 
 
 def FF(n):

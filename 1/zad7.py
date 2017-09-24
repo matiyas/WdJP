@@ -6,13 +6,12 @@ from sys import argv
 from math import sqrt
 
 
-"""Napisz program, którego argumentem jest nazwa pliku zawierającego po trzy liczby w wierszu (
-pierwsza niezerowa). Program dla każdego wiersza:
-    - potraktuje te liczby jako współczynniki trójmianu kwadratowego ax^2 + bx + c, obliczy i 
-      wypisze pierwiastki rzeczywiste (jeśli są dwa), pierwiastek (jeśli jeden), lub informację o 
-      ich braku,
-    
-    na koniec podsumuje, ile trójmianów miało 0, 1, 2 pierwiastków.
+"""Napisz program, którego argumentem jest nazwa pliku zawierającego po trzy 
+liczby w wierszu ( pierwsza niezerowa). Program dla każdego wiersza: - 
+potraktuje te liczby jako współczynniki trójmianu kwadratowego ax^2 + bx + 
+c, obliczy i wypisze pierwiastki rzeczywiste (jeśli są dwa), pierwiastek (
+jeśli jeden), lub informację o ich braku, na koniec podsumuje, ile trójmianów 
+miało 0, 1, 2 pierwiastków.
 """
 
 
@@ -30,7 +29,8 @@ if __name__ == '__main__':
                 print(-x[1] / (2 * x[0]))
                 jeden += 1
             else:
-                print((-x[1] - sqrt(delta)) / (2 * x[0]), (-x[1] - sqrt(delta)) / (2 * x[0]))
+                print((-x[1] - sqrt(delta)) / (2 * x[0]),
+                      (-x[1] - sqrt(delta)) / (2 * x[0]))
                 dwa += 1
 
         print('\nPodsumowanie:')

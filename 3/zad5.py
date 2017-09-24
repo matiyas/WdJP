@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 
-"""Zaimplementuj funkcję factory, która przyjmuje jeden parametr: n i zwraca funję,
-która wypisuje na ekranie liczby od 1 do n."""
+"""Zaimplementuj funkcję factory, która przyjmuje jeden parametr: n i zwraca
+funkję, która wypisuje na ekranie liczby od 1 do n."""
 
 
 def factory(n):

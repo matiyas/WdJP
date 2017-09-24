@@ -5,11 +5,11 @@
 from sys import argv
 
 
-"""Napisz program, który:
-    - wyświetla: swoją nazwę, liczbę argumentów, listę wszystkich argumentów
-    - pobiera jako parametry dwie liczby, wyświetla ich sumę, różnicę oraz iloczyn,
-    - pobiera jako parametry dwie liczby a i b oraz wyświetla 'tak' jeśli a dzieli b, 
-      w przeciwnym wypadku wyświetla 'nie'."""
+"""Napisz program, który: - wyświetla: swoją nazwę, liczbę argumentów, 
+listę wszystkich argumentów - pobiera jako parametry dwie liczby, wyświetla 
+ich sumę, różnicę oraz iloczyn, - pobiera jako parametry dwie liczby a i b 
+oraz wyświetla 'tak' jeśli a dzieli b, w przeciwnym wypadku wyświetla 'nie'. 
+"""
 
 
 if __name__ == '__main__':

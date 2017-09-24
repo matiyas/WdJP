@@ -31,14 +31,15 @@ class Kwadrat:
         step = abs(self.p1[0] - self.p2[0]) / 3
         p = list(product(arange(self.p1[0], self.p2[0]+1, step),
                          arange(self.p1[1], self.p2[1]+1, step)))
-        return [Kwadrat(p[x], p[x+5]) for x in range(11) if (x+1) % 4 != 0 and x != 5]
+        return [Kwadrat(p[x], p[x+5]) for x in range(11)
+                if (x+1) % 4 != 0 and x != 5]
 
     def __str__(self):
-        return r'<polygon points="{},{} {},{} {},{} {},{}" style="fill:black;"/>'.format(
-            self.p1[0], self.p1[1],
-            self.p2[0], self.p1[1],
-            self.p2[0], self.p2[1],
-            self.p1[0], self.p2[1])
+        return r'<polygon points="{},{} {},{} {},{} {},{}" ' \
+               r'style="fill:black;"/>'.format(self.p1[0], self.p1[1],
+                                               self.p2[0], self.p1[1],
+                                               self.p2[0], self.p2[1],
+                                               self.p1[0], self.p2[1])
 
 
 def list_to_svg(kwadraty):

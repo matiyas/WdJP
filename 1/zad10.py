@@ -34,5 +34,5 @@ if __name__ == '__main__':
         for powloka in powloki:
             print('\t{}'.format(powloka))
 
-        print('\nUID użytkownika nobody:',uid_nobody)
+        print('\nUID użytkownika nobody:', uid_nobody)
         print('\nLiczba linii w pliku:', linie)

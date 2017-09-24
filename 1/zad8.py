@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""Napisz program, który pobiera od użytkownika liczbę całkowitą n i wyświetla na ekranie
-wartości funkcji FF(n) oraz GG(n)."""
+"""Napisz program, który pobiera od użytkownika liczbę całkowitą n i
+wyświetla na ekranie wartości funkcji FF(n) oraz GG(n). """
 
 
 def FF(n):

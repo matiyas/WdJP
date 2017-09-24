@@ -4,8 +4,8 @@
 from random import randint
 
 
-"""Zaimplementuj klasę LiczbaLosowa, która nie umożliwia tworzenia atrybutów, a w przypadku próby 
-odczytu zwraca liczbę losową."""
+"""Zaimplementuj klasę LiczbaLosowa, która nie umożliwia tworzenia 
+atrybutów, a w przypadku próby odczytu zwraca liczbę losową. """
 
 
 class LiczbaLosowa:
